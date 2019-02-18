@@ -1,0 +1,17 @@
+{
+  "name": "0218_firstelectronapp",
+  "version": "1.0.0",
+  "description": "ho first test",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "start": "npm run build && electron ./dist/main.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^4.0.5",
+    "tslint": "^5.12.1",
+    "typescript": "^3.3.3"
+  }
+}
